@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists Using CSS</title>
+        <style type="text/css">
+          #text{
+            color: orchid;
+          }
+          ul.a {
+            background-color: peachpuff;
+            list-style-type: square;
+            padding: 20px;
+          }
+          ul.a li {
+            background-color: gray;
+            padding: 5px;
+            margin: 5px;
+          }
+          ul.b {
+            list-style-type: disc;
+            padding: 20px;
+            background-color: papayawhip;
+          }
+          ul.b li {
+            padding: 5px;
+            padding: 5px;
+          }
+          ol.c {
+            list-style-type: lower-roman;
+          }
+          ol.d {
+            list-style-type: upper-alpha;
+          }
+          ul.e {
+            list-style-type: circle;
+            list-style-position: inside;
+            background-color: moccasin;
+            padding: 20px;
+          }
+          ul.e li {
+            padding: 5px;
+            margin: 5px;
+          }
+          ul.f {
+            list-style-type: square;
+            list-style-position: outside;
+            background-color: cadetblue;
+            padding: 20px;
+          }
+          ul.f li {
+            background-color: peachpuff;
+            padding: 5px;
+            margin: 5px;
+          }
+          ul.g {
+            list-style-type: square;
+            list-style-position: outside;
+            background-color: olive;
+            padding: 20px;
+          }
+          ul.g li {
+            background-color: peachpuff;
+            padding: 5px;
+            margin: 5px;
+          }
+        </style>
+    </head>
+    <body>
+        <h2 id="text">Examples of Unordered List: </h2>
+        <ul class="a">
+          <li>Data Science Using Python</li>
+          <li>Data Base Management Systems</li>
+          <li>Discrete Mathematics</li>
+          <li>Operating Systems</li>
+        </ul>
+        <ul class="b">
+          <li>DS</li>
+          <li>CO</li>
+          <li>PS</li>
+          <li>Java</li>
+        </ul>
+        <h2 id="text">Examples of Ordered List: </h2>
+        <ol class = "c">
+            <li>Python</li>
+            <li>DE</li>
+            <li>EC</li>
+            <li>BEE</li>
+        </ol>
+        <ol class="d">
+            <li>C</li>
+            <li>Physics</li>
+            <li>M1</li>
+            <li>Drones</li>
+        </ol>
+        <h2 id="text">List Style position properties: </h2>
+        <ul>
+            <h4>1. list-style-position: inside</h4> 
+            <li><ul class = "e">
+                  <li>Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.</li>
+                  <li>Machine Learning</li>
+                  <li>Data Science</li>
+                </ul>
+            </li>
+
+            <h4>2. list-style-position: outside</h4>
+            <li><ul class = "f">
+                  <li>Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.</li>
+                  <li>Machine Learning</li>
+                  <li>Data Science</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2 id="text"> Styling list with colors</h2>
+        <ul class = "g"> 
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Coca Cola</li>
+        </ul>
+    </body>
+</html>
